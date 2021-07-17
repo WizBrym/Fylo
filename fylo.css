@@ -1,0 +1,773 @@
+@import url('https://fonts.googleapis.com/css2?family=Crimson+Pro:wght@200&family=Lora:wght@500;700&family=Playfair+Display:wght@400;700&family=Montserrat:ital,wght@0,400;0,600;1,500&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Open+Sans:ital,wght@0,700;1,400&family=Raleway:wght@400;700&display=swap');
+
+html{
+    scroll-behavior: smooth;
+}
+body{
+    margin: 0px;
+    padding: 0px;
+    
+}
+.container{
+    position: relative;
+    width: 1440px;
+    height: 3420px;
+
+    color: rgb(158, 153, 153);
+    background: hsl(217, 28%, 15%);
+    border-radius: 12px;
+
+    font-family: "open sans";
+    font-weight: 400;
+    font-size: 12px;
+    box-shadow: 0px 2px 10px #4F4F4F;
+}
+.backgroundP{
+    position: absolute;
+    width: 1440px;
+    height: 1500px;
+    top: 600px;
+    left: 0px;
+}
+h1, h2{
+    font-family: "Raleway";
+    font-weight: 700;
+    color: white;
+}
+p{
+    width: 350px;
+}
+button{
+    width: 250px;
+    height: 60px;
+    border-radius: 30px;
+    background:  hsl(198, 93%, 23%) ;
+    color: white;
+    cursor: pointer;
+    outline: none;
+}
+button:hover{
+    background-color:hsl(198, 60%, 50%);
+}
+.logo1{
+    position: absolute;
+    width: 120px;
+    height: 40px;
+    top: 40px;
+    left: 100px;
+}
+a{
+    font-size: 12px;
+    line-height: 36px;
+    color: rgb(158, 153, 153);
+    text-decoration: none;
+    cursor: pointer;
+}
+.feature{
+    position: absolute;
+    width: 100px;
+    height: 36px;
+    left: 1050px;
+    top: 40px;
+}
+.team{
+    position: absolute;
+    width: 100px;
+    height: 36px;
+    left: 1160px;
+    top: 40px;
+}
+.signin{
+    position: absolute;
+    width: 100px;
+    height: 36px;
+    left: 1250px;
+    top: 40px;
+}
+.feature:hover,.team:hover,.signin:hover{
+    text-decoration:underline;
+
+}
+a:hover{
+    color: white;
+}
+
+article{
+    position: absolute;
+    text-align: center;
+}
+#image{
+    position: absolute;
+    width: 650px; 
+    top: 200px; ;
+    left: 390px;
+}
+.heading1{
+    position: absolute;
+    width: 700px;
+    top: 700px;
+    left: 355  px;
+    letter-spacing: 3px;
+    font-size: 29px;
+    line-height: 36px;
+}
+.headP{
+    position: absolute;
+    width: 520px;
+    top: 800px;
+    left: 445px;
+    letter-spacing: 2px;
+}
+.btn0{
+    position: absolute;
+    top:900px;
+    left: 575px; 
+}
+.section1{
+    position: absolute;
+    top: 1050px;
+    left: 280px;
+    text-align: center;
+}
+.section2{
+    position: absolute;
+    top: 1040px;
+    left: 760px;
+    text-align: center;
+}
+.section3{
+    position: absolute;
+    top: 1350px;
+    left: 280px;
+    text-align: center;
+}
+.section4{
+    position: absolute;
+    top: 1350px;
+    left: 760px;
+    text-align: center;
+}
+
+.section5{
+    position: absolute;
+    top: 1650px;
+    left: 760px;
+    text-align: left;
+}
+.image5{
+    position: absolute;
+    right: 70px;
+}
+.heading5{
+    position: absolute;
+    width: 300px;
+    top: 100px ;
+    font-size: 29px;
+    line-height: 36px;
+}
+.p5{
+    position: absolute;
+    width: 600px;
+    top: 220px;
+    text-align: left;
+    letter-spacing: 2px;
+}
+.btn5{
+    position: absolute;
+    top: 370px;
+    text-align: left;
+    border: none;
+    background:none ;  
+}
+.btn5:hover{
+    background: none;
+    text-decoration: underline;
+}
+.arrow5{
+    position: absolute;
+    top: 392px;
+    left: 128px;
+}
+
+.rect{
+    position: absolute;
+    width: 370px;
+    height: 200px;
+    left: 100px;
+    top: 2250px;
+    border-radius: 10px;
+    background-color:hsl(219, 30%, 18%);
+    box-shadow: 0px 2px 10px hsl(218, 42%, 10%);
+}
+.img6{
+    position: absolute;
+    top: 2215px;
+    left: 90px;
+}
+.p6{
+    position: absolute;
+    width: 310px;
+    top: 2270px;
+    left: 130px;
+    letter-spacing: 1px;
+    color: white;
+}
+.img6a{
+    position: absolute;
+    width: 30px;
+    height: 30px;
+    top: 2390px;
+    left: 130px;
+    border-radius: 25px;
+}
+.h6{
+    position: absolute;
+    top: 2375px;
+    left: 170px;
+    color: white;
+}
+.post6{
+    position: absolute;
+    top: 2406px;
+    left: 170px;
+}
+
+.rect1{
+    position: absolute;
+    width: 370px;
+    height: 200px;
+    left: 540px;
+    top: 2250px;
+    border-radius: 10px;
+    background-color:hsl(219, 30%, 18%);
+    box-shadow: 0px 2px 10px hsl(218, 42%, 10%);
+}
+.p7{
+    position: absolute;
+    width: 310px;
+    top: 2270px;
+    left: 575px;
+    letter-spacing: 1px;
+    color: white;
+}
+.img7{
+    position: absolute;
+    width: 30px;
+    height: 30px;
+    top: 2390px;
+    left: 575px;
+    border-radius: 25px;
+}
+.h7{
+    position: absolute;
+    top: 2375px;
+    left: 615px;
+    color: white;
+}
+.post7{
+    position: absolute;
+    top: 2406px;
+    left: 615px;
+}
+.rect2{
+    position: absolute;
+    width: 370px;
+    height: 200px;
+    left: 970px;
+    top: 2250px;
+    border-radius: 10px;
+    background-color:hsl(219, 30%, 18%);
+    box-shadow: 0px 2px 10px hsl(218, 42%, 10%);
+}
+.p8{
+    position: absolute;
+    width: 310px;
+    top: 2270px;
+    left: 995px;
+    letter-spacing: 1px;
+    color: white;
+}
+.img8{
+    position: absolute;
+    width: 30px;
+    height: 30px;
+    top: 2390px;
+    left: 995px;
+    border-radius: 25px;
+}
+.h8{
+    position: absolute;
+    top: 2375px;
+    left: 1040px;
+    color: white;
+}
+.post8{
+    position: absolute;
+    top: 2406px;
+    left: 1040px;
+}
+.rect3{
+    position: absolute;
+    width: 900px;
+    height: 300px;
+    left: 250px;
+    top: 2650px;
+    border-radius: 10px;
+    background-color:hsl(219, 30%, 18%);
+    box-shadow: 0px 2px 10px hsl(218, 42%, 10%);
+}
+.h9{
+    position: absolute;
+    top: 2675px;
+    left: 540px;
+    color: white;
+    letter-spacing: 2px;
+    font-size: 29px;
+    line-height: 36px;
+    text-align: center;
+}
+.input9{
+    position: absolute;
+    width: 480px;
+    height: 48px;
+    top: 2840px;
+    left: 315px;
+    padding-left: 38px;
+    outline: none;
+    border-radius: 30px;
+    box-shadow: 0px 2px 10px hsl(218, 42%, 10%);
+}
+.btn9{
+    position: absolute;
+    width: 220px;
+    height: 52px;
+    top: 2840px;
+    left: 870px;
+    border-radius: 30px;
+    box-shadow: 0px 2px 10px hsl(218, 42%, 10%);
+    outline: none;
+}   
+.p9{
+    position: absolute;
+    width: 710px;
+    top: 2750px;
+    left: 350px;
+    letter-spacing: 1px;
+    color: white;
+    text-align: center;
+}
+.p9a{
+    position: absolute;
+    top: 2886px;
+    left: 350px;
+    color: tomato;
+}
+.rect4{
+    position: absolute;
+    width: 1440px;
+    height: 600px;
+    left: 0px;
+    top: 2820px;
+    border-radius: 10px;
+    background-color:hsl(216, 53%, 9%);
+    box-shadow: 0px 2px 10px hsl(218, 42%, 10%);
+}
+.logo2{
+    position: absolute;
+    width: 100px;
+    height: 30px;
+    top: 3050px;
+    left: 80px;
+}
+.location{
+    position: absolute;
+    top: 3150px;
+    left: 80px;
+}
+.fp{
+    position: absolute;
+    top: 3135px;
+    left: 115px;
+}
+.fp1{
+    position: absolute;
+    top: 3135px;
+    left: 555px;
+}
+.fp2{
+    position: absolute;
+    top: 3185px;
+    left: 555px;
+}
+#foot{
+    position: absolute;
+    top: 3120px;
+    left: 855px;
+    list-style: none;
+}
+#foot2{
+    position: absolute;
+    top: 3120px;
+    left: 1020px;
+    list-style: none;
+}
+#foot:hover,#foot2:hover,.fp1:hover,.fp2:hover{
+    color: white;
+    cursor: pointer;
+}
+.foot3{
+    position: absolute;
+    top: 3130px;
+    left: 1200px;
+}
+.facebook{
+    position: absolute;
+    width: 40px;
+    height: 40px;   
+}
+.twitter{
+    position: absolute;
+    width: 30px;
+    height: 30px;
+    top: 5px;
+    left: 60px;
+}
+.IG{
+    position: absolute;
+    width: 30px;
+    height: 30px;
+    top: 5px;
+    left: 120px;
+}
+.coder{
+    position: absolute;
+    width: 300px;
+    height: 17px;
+    top: 3360px;
+    left: 550px;
+    font-family: "Montserrat";
+    font-size: 14px;
+    font-weight: 500;
+    line-height: 17px;
+    letter-spacing: 1px;
+    color: white;
+}
+
+
+/*------styling for mobile screen 375x2000------------*/
+
+@media screen and (max-width:375px) {
+body{
+    margin: 0px;
+    padding: 0px;
+}
+.container{
+    position: relative;
+    width: 375px;
+    height: 4490px;
+
+    color: rgb(158, 153, 153);
+    background: hsl(217, 28%, 15%);
+    border-radius: 12px;
+
+    font-family: "open sans";
+    font-weight: 400;
+    font-size: 12px;
+    box-shadow: 0px 2px 10px #4F4F4F;
+}
+.backgroundP{
+    position: absolute;
+    width: 375px;
+    height: 500px;
+    top: 600px;
+    left: 0px;
+}
+.logo1{
+    position: absolute;
+    width: 70px;
+    height: 20px;
+    top: 35px;
+    left: 15px;
+}
+.feature{
+    position: absolute;
+    width: 60px;
+    height: 25px;
+    left: 180px;
+    top: 30px;
+}
+.team{
+    position: absolute;
+    width: 60px;
+    height: 25px;
+    left: 250px;
+    top: 30px;
+}
+.signin{
+    position: absolute;
+    width: 60px;
+    height: 20px;
+    left: 300px;
+    top: 30px;
+}
+#image{
+    position: absolute;
+    width: 300px;
+    top: 120px; ;
+    left: 25px;
+}
+.heading1{
+    position: absolute;
+    width: 300px;
+    top: 350px;
+    left: 25px; 
+    font-size: 17px;
+    line-height: 30px;
+}
+.headP{
+    position: absolute;
+    width: 300px;
+    top: 460px;
+    left: 25px;
+    letter-spacing: 1px;
+}
+.btn0{
+    position: absolute;
+    width: 220px;
+    height: 40px;
+    top: 570px;
+    left: 65px; 
+}
+p{
+    width: 320px;
+}
+.section1{
+    position: absolute;
+    top: 750px;
+    left: 20px;
+    text-align: center;
+}
+.section2{
+    position: absolute;
+    top: 1040px;
+    left: 20px;
+    text-align: center;
+}
+.section3{
+    position: absolute;
+    top: 1340px;
+    left: 20px;
+    text-align: center;
+}
+.section4{
+    position: absolute;
+    top: 1620px;
+    left: 20px;
+    text-align: center;
+}
+
+.section5{
+    position: absolute;
+    top: 2050px;
+    left: 20px;
+    text-align: left;
+}
+.image5{
+    position: absolute;
+    width: 300px;
+    top: -100px;
+    left: 20px;
+}
+.heading5{
+    position: absolute;
+    top: 135px ;
+    left: 20px;
+    font-size: 17px;
+    line-height: 36px;
+}
+.p5{
+    position: absolute;
+    width: 300px;
+    top: 200px;
+    left: 20px;
+    text-align: left;
+}
+.btn5{
+    position: absolute;
+    top: 370px;
+    left: 13px;
+    text-align: left;
+    border: none;
+    background:none ;  
+}
+.btn5:hover{
+    background: none;
+    text-decoration: underline;
+    color: teal;
+}
+.arrow5{
+    position: absolute;
+    top: 392px;
+    left: 140px;
+}
+.rect, .rect1, .rect2{
+    width: 350px;
+}
+.section6{
+    position: absolute;
+    width: 400px;
+    top: 300px;
+    left: -90px;
+}
+.section7{
+    position: absolute;
+    width: 800px;
+    top: 550px;
+    left: -530px;
+}
+.section8{
+    position: absolute;
+    width: 1200px;
+    top: 800px;
+    left: -960px;
+}
+.rect3{
+    position: absolute;
+    width: 340px;
+    height: 340px;
+    left: 15px;
+    top: 3400px;
+    border-radius: 10px;
+    background-color:hsl(219, 30%, 18%);
+    box-shadow: 0px 2px 10px hsl(218, 42%, 10%);
+}
+.h9{
+    position: absolute;
+    top: 3410px;
+    left: 65px;
+    color: white;
+    font-size: 17px;
+    line-height: 30px;
+    text-align: center;
+}
+.input9{
+    position: absolute;
+    width: 250px;
+    height: 35px;
+    top: 3590px;
+    left: 35px;
+    padding-left: 38px;
+    outline: none;
+    border-radius: 30px;
+    box-shadow: 0px 2px 10px hsl(218, 42%, 10%);
+}
+.btn9{
+    position: absolute;
+    width: 300px;
+    height: 40px;
+    top: 3650px;
+    left: 35px;
+    border-radius: 30px;
+    box-shadow: 0px 2px 10px hsl(218, 42%, 10%);
+    outline: none;
+}   
+.p9{
+    position: absolute;
+    width: 300px;
+    top: 3470px;
+    left: 34px;
+    text-align: center;
+}
+.p9a{
+    display: none;
+}
+.rect4{
+    position: absolute;
+    width: 375px;
+    height: 920px;
+    left: 0px;
+    top: 3570px;
+    border-radius: 10px;
+    background-color:hsl(216, 53%, 9%);
+    box-shadow: 0px 2px 10px hsl(218, 42%, 10%);
+}
+.logo2{
+    position: absolute;
+    width: 130px;
+    height: 40px;
+    top: 3800px;
+    left: 40px;
+}
+.location{
+    position: absolute;
+    top: 3880px;
+    left: 30px;
+}
+.fp{
+    position: absolute;
+    top: 3865px;
+    left: 75px;
+}
+.fp1{
+    position: absolute;
+    top: 3935px;
+    left: 30px;
+}
+.fp2{
+    position: absolute;
+    top: 3975px;
+    left: 30px;
+}
+#foot{
+    position: absolute;
+    top: 4050px;
+    left: -10px;
+    list-style: none;
+}
+#foot2{
+    position: absolute;
+    top: 4220px;
+    left: -10px;
+    list-style: none;
+}
+#foot:hover,#foot2:hover,.fp1:hover,.fp2:hover{
+    color: white;
+    cursor: pointer;
+}
+.foot3{
+    position: absolute;
+    top: 4400px;
+    left: 130px;
+}
+.facebook{
+    position: absolute;
+    width: 22px;
+    height: 22px;   
+}
+.twitter{
+    position: absolute;
+    width: 18px;
+    height: 18px;
+    left: 40px;
+}
+.IG{
+    position: absolute;
+    width: 18px;
+    height: 18px;
+    left: 80px;
+}
+.coder{
+    position: absolute;
+    width: 300px;
+    height: 17px;
+    top: 4460px;
+    left: 50px;
+    font-family: "Montserrat";
+    font-size: 14px;
+    font-weight: 500;
+    line-height: 17px;
+    letter-spacing: 1px;
+    color: white;
+}
+}
